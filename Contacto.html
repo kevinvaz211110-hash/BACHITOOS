@@ -45,21 +45,23 @@
 
 <h1>Contacto</h1>
 
-<form>
-
-<p>Nombre:Kevin vazquez ramires</p>
-<input type="text">
-
-<p>Correo electrónico:kevin.vaz211110@gmail.com</p>
-<input type="email">
-
-<p>Mensaje</p>
-<textarea rows="6" cols="40"></textarea>
-
-<br><br>
-
-<input type="submit" value="Enviar">
-
+<form
+  action="https://formspree.io/f/mzdlrwdd"
+  method="POST"
+> 
+  <label>
+    nombre:
+    <input type="nombre" name="nombre">
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
 
 </div>

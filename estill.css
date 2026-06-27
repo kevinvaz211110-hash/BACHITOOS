@@ -1,0 +1,118 @@
+/* estilo.css - versión base mejorada */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 16px Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f6f9;
+  color: #333;
+}
+.contenedor {
+  width: 980px;
+  margin: auto;
+}
+.encabezado {
+  background: #0d1b2a;
+  overflow: hidden;
+}
+.logo {
+  float: left;
+  padding: 18px;
+  color: #fff;
+}
+.encabezado nav {
+  float: right;
+}
+.encabezado nav ul {
+  list-style: none;
+}
+.encabezado nav li {
+  display: inline-block;
+}
+.encabezado nav a {
+  display: block;
+  padding: 22px;
+  color: #fff;
+  text-decoration: none;
+}
+.encabezado nav a:hover {
+  background: #1b263b;
+}
+.presentacion {
+  background: linear-gradient(135deg, #005bea, #00c6fb);
+  padding: 40px 0;
+  overflow: hidden;
+}
+.presentacion h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.presentacion p,
+.presentacion li {
+  color: #fff;
+}
+.aprender-mas {
+  display: inline-block;
+  background: #28a745;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+.aprender-mas:hover {
+  background: #218838;
+}
+.acceso-rapido {
+  background: #16a34a;
+  padding: 20px 0;
+  text-align: center;
+}
+.acceso-rapido figure {
+  display: inline-block;
+  width: 24%;
+}
+.acceso-rapido a {
+  color: #fff;
+  text-decoration: none;
+}
+.bloque-contenido {
+  padding: 30px 0;
+}
+.articulos {
+  background: #fff;
+  padding: 20px;
+}
+.articulos h2 {
+  color: #005bea;
+  margin-bottom: 15px;
+}
+.articulos article {
+  margin-bottom: 20px;
+}
+.complementario {
+  background: #003566;
+  color: #fff;
+  padding: 20px;
+}
+.suscripcion {
+  background: #eee;
+  padding: 20px;
+}
+.piedepagina {
+  background: #0d1b2a;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.social {
+  position: fixed;
+  right: 10px;
+  top: 30%;
+}
+.social img {
+  border-radius: 50%;
+}
